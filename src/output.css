@@ -2745,6 +2745,16 @@
       }
     }
   }
+  .sm\:absolute {
+    @media (width >= 40rem) {
+      position: absolute;
+    }
+  }
+  .sm\:relative {
+    @media (width >= 40rem) {
+      position: relative;
+    }
+  }
   .sm\:flex {
     @media (width >= 40rem) {
       display: flex;
